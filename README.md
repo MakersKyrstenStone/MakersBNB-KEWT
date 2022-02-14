@@ -85,3 +85,4 @@ Users should receive an email whenever one of the following happens:
   </li>
 </ul>
 
+![userstory-diagrams- pt1](https://user-images.githubusercontent.com/68760004/153908777-52a3386d-016b-4589-b6c7-712470799349.jpg)
