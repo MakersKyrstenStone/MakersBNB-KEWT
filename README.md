@@ -28,3 +28,5 @@ A ‘chat’ functionality once a space has been booked, allowing users whose sp
 Basic payment implementation though Stripe.
 Mockups
 Mockups for MakersBnB are available here.
+
+User Stories Section
