@@ -1,26 +1,22 @@
-psql
+psql -- enter REPL
 
-CREATE DATABASE "kewtbnb";
+CREATE DATABASE "kewtbnb"; -- Create DB called 'Kewtbnb'
 
-\c kewtbnb
+\c kewtbnb -- connect to kewtbnb db
 
-CREATE TABLE users(id SERIAL PRIMARY KEY);
+CREATE TABLE users(id SERIAL PRIMARY KEY); -- create user table with id column
 
-CREATE TABLE spaces(id SERIAL PRIMARY KEY);
+CREATE TABLE spaces(id SERIAL PRIMARY KEY); -- create spaces table with id column
 
-CREATE TABLE accounts(id SERIAL PRIMARY KEY);
+CREATE TABLE accounts(id SERIAL PRIMARY KEY); -- create accounts table with id column
 
-\c will (replace 'will' with your name)
+ALTER TABLE accounts ADD COLUMN "user_name" varchar(60); -- add user_name column
 
-CREATE DATABASE "kewtbnb_test";
+ALTER TABLE accounts ADD COLUMN "passwords" varchar(30); -- add passwords column
 
-\c kewtbnb_test
+ALTER TABLE accounts ADD COLUMN "email" varchar(320); -- add email column
 
-CREATE TABLE users(id SERIAL PRIMARY KEY);
 
-CREATE TABLE spaces(id SERIAL PRIMARY KEY);
+\c will -- replace 'will' with your name. Connects to the db parent directory 
 
-CREATE TABLE accounts(id SERIAL PRIMARY KEY);
-
-\q
-
+-- * REPEAT ABOVE FOR 'kewtbnb_test' DATABASE * --
