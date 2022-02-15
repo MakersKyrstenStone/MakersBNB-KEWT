@@ -86,3 +86,4 @@ Users should receive an email whenever one of the following happens:
 </ul>
 
 ![userstory-diagrams- pt1](https://user-images.githubusercontent.com/68760004/153908777-52a3386d-016b-4589-b6c7-712470799349.jpg)
+![Screenshot 2022-02-15 at 11 13 56](https://user-images.githubusercontent.com/95972891/154051437-31bd7880-a2cd-4b41-808a-73a9e9363c8a.png)
