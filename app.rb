@@ -10,5 +10,16 @@ class Kewtbnb < Sinatra::Base
     'Hello! branching sucks'
   end
 
+  get '/spaces' do
+    @spaces = [
+    "Desert Island",
+    "standard flat", 
+    "Palace", 
+    "Beautiful Country Estate"
+    ]
+
+    erb :spaces
+  end
+
   run! if app_file == $0
 end
