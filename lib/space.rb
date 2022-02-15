@@ -1,7 +1,12 @@
 class Space
 
   def self.all
-    "Beautiful Country Estate"
+    @spaces = [
+      "Desert Island",
+      "standard flat", 
+      "Palace", 
+      "Beautiful Country Estate"
+      ]
   end
 
 end

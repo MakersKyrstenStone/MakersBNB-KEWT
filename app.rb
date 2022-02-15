@@ -1,5 +1,6 @@
 require 'sinatra/base'
 require 'sinatra/reloader' 
+require './lib/space'
 
 class Kewtbnb < Sinatra::Base
   configure :development do
@@ -11,13 +12,7 @@ class Kewtbnb < Sinatra::Base
   end
 
   get '/spaces' do
-    @spaces = [
-    "Desert Island",
-    "standard flat", 
-    "Palace", 
-    "Beautiful Country Estate"
-    ]
-
+    @spaces = Space.all
     erb :spaces
   end
 
