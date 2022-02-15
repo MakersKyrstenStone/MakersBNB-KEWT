@@ -7,7 +7,7 @@ class Kewtbnb < Sinatra::Base
   end
 
   get '/' do
-    'Hello!'
+    'Hello! branching sucks'
   end
 
   run! if app_file == $0
