@@ -8,7 +8,8 @@ class Kewtbnb < Sinatra::Base
   end
 
   get '/' do
-    'Hello! branching sucks'
+    # 'Hello! branching sucks'
+    erb :homepage
   end
 
   get '/spaces' do
