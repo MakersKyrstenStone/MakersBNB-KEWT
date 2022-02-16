@@ -16,5 +16,9 @@ class Kewtbnb < Sinatra::Base
     erb :spaces
   end
 
+  post '/spaces/booking-request' do
+    "Booking request received."
+  end
+
   run! if app_file == $0
 end

@@ -1,5 +1,13 @@
 <ul>
   <% @spaces.each do |space| %>
     <u><li><%= space %></li></u>
+    <form action="spaces/booking-request" method="post" target="_blank"> 
+      <input type='submit' value= 'BOOK!' />
+    </form>
+
+  
   <% end %>
 </ul>
+
+
+
