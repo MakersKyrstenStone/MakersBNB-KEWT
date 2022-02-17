@@ -6,9 +6,9 @@ def setup_test_database
   connection = PG.connect(dbname: 'kewtbnb_test')
 
   # Clear the bookmarks table
-  connection.exec("TRUNCATE users;")
+  # connection.exec("TRUNCATE users;")
   # connection.exec("TRUNCATE spaces;")
-  connection.exec("TRUNCATE accounts;")
+  # connection.exec("TRUNCATE accounts;")
 end
 
 def add_row_to_test_database
