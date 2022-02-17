@@ -32,7 +32,8 @@ Capybara.app = Kewtbnb
 
 RSpec.configure do |config|
   config.before(:each) do
-    setup_test_database
+    connect_and_truncate
+    populate_test_database
   end
 
   # rspec-expectations config goes here. You can use an alternate
