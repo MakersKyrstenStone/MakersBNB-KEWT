@@ -17,6 +17,9 @@ class Kewtbnb < Sinatra::Base
     erb :spaces
   end
 
+  post '/space' do 
+  end
+
   post '/spaces/booking-request' do
     "Booking request received."
   end
