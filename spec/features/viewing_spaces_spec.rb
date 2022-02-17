@@ -7,7 +7,7 @@ feature 'Viewing spaces' do
     visit('/spaces')
 
     expect(page).to have_content "Desert Island"
-    expect(page).to have_content "standard flat"
+    expect(page).to have_content "Standard flat"
     expect(page).to have_content "Palace"
     expect(page).to have_content "Beautiful Country Estate"
   end
