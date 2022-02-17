@@ -20,7 +20,7 @@ describe Space do
 
       expect(spaces).to include "Beautiful Country Estate"
       expect(spaces).to include "Desert Island"
-      expect(spaces).to include "standard flat"
+      expect(spaces).to include "Standard flat"
       expect(spaces).to include "Palace"
 
     end

@@ -4,6 +4,6 @@ feature 'homepage_spaces button' do
 
     visit('/')
     click_button "View Properties"
-    expect(page).to have_content 'standard flat'
+    expect(page).to have_content 'Standard flat'
   end
 end
