@@ -14,6 +14,9 @@ def populate_test_database
 
   connection.exec("INSERT INTO accounts (user_name,passwords) 
   VALUES('Will','pw1'), ('Eden','pw2'), ('Tom','pw3'), ('Kyrsten','pw4');")
+
+  connection.exec("INSERT INTO accounts (user_name,passwords) 
+  VALUES('Will','pw1'), ('Eden','pw2'), ('Tom','pw3'), ('Kyrsten','pw4');")
   
   connection.exec("INSERT INTO spaces (price,name) 
   VALUES(100,'Standard flat'), (5000,'Desert Island'), (2500,'Palace'), (600,'Beautiful Country Estate');")
