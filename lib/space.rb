@@ -11,14 +11,14 @@ class Space
 
      result = connection.exec("SELECT * FROM spaces")
      @spaces = result.map {|space| space ["name"]}
-     
+    
 
-    # @spaces = [
-    #   "Desert Island",
-    #   "standard flat", 
-    #   "Palace", 
-    #   "Beautiful Country Estate"
-    #   ]
+
+     @spaces = result.map {|space| space ["name", "price"]}
+
+
+
+  
   end
 
 end
