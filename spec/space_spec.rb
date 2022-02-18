@@ -17,11 +17,11 @@ describe Space do
     it 'returns a list of spaces' do
       
       spaces = Space.all
-
-      expect(spaces).to include "Beautiful Country Estate"
-      expect(spaces).to include "Desert Island"
-      expect(spaces).to include "Standard flat"
-      expect(spaces).to include "Palace"
+            
+      expect(spaces).to include "Beautiful Country Estate-I am Beautiful!-600"
+      expect(spaces).to include "Desert Island-An island to yourself!-5000"
+      expect(spaces).to include "Standard flat-Not many rats-100"
+      expect(spaces).to include "Palace-Roomy-2500"
 
     end
     
