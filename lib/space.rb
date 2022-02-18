@@ -12,7 +12,7 @@ class Space
      result = connection.exec("SELECT * FROM spaces")
     
      # @spaces = 
-     result.map.to_s {|space| space['name'] + "-" + space['description'] + "-" + space['price']}
+     result.map {|space| space['name'] + "-" + space['description'] + "-" + space['price']}
 
     end
 
